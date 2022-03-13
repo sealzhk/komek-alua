@@ -1,0 +1,32 @@
+<div class="container-sm mx-auto my-5 pb-3 rounded shadow-lg" style="width: 50%">
+  <h1 class="py-3" style="text-align: center">Edit profile</h1>
+  <hr class="pb-2" style="width: 80%">
+  <img src="assets/images/mypage_example.png" class="shadow-lg rounded-circle mx-auto d-block mb-3" width="200px" alt="User photo">
+  <div class="d-flex justify-content-center">
+    <a class="btn mb-4" routerLink="/" role="button" style="background-color: #E5E5E5; width: 40%">Change photo</a>
+  </div>
+  <div class="mx-3 pb-4">
+    <form>
+      <div class="form-group mb-5">
+        <label for="fullname">Full name</label>
+        <input required type="fullname" class="form-control" placeholder="Enter full name" id="fullname">
+      </div>
+      <div class="form-group mb-5">
+        <label for="dateofbirth">Date of birth</label>
+        <input required type="dateofbirth" class="form-control" placeholder="Enter date of birth" id="dateofbirth">
+      </div>
+      <label>Gender</label>
+      <div class="row mb-2">
+        <div class="col d-flex justify-content-center">
+          <div><input type="radio" class="form-check-input" id="male" name="male" value="male">Male</div>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <div><input type="radio" class="form-check-input" id="female" name="female" value="female">Female</div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="d-flex justify-content-center">
+    <a class="btn mb-4" routerLink="/mypage" role="button" style="background-color: #E5E5E5; width: 40%">Done</a>
+  </div>
+</div>
